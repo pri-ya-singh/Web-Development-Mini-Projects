@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: #adb9ecd5;
+
+}
+.back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.card{
+    width: 300px;
+    height: 70px;
+    background-color:rgba(255, 255, 255, 0.503);
+    margin-top: 10px;
+    border-radius: 20px;
+    backdrop-filter: blur(6px);
+    color: rgb(18,17,17);
+    box-shadow: 2px 2px 20px black;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.search input{
+    padding: 5px 10px;
+    width: 200px;
+    margin-right: 10px;
+    border-radius: 15px;
+    border: none;
+}
+#btn{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+.w1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.w1 img{
+    width: 200px;
+    margin-top: -25px;
+}
+#temp{
+    font-size: 60px;
+    margin-top: -50px;
+}
+#city{
+    font-size: 40px;
+    margin-top: -20px;
+}
+.w2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
+#invalid{
+    font-size: 10px;
+    margin-left: 23px;
+    margin-top: 3px;
+    color: red;
+    display: none;
+}
+.humidity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.humidity img{
+    width: 70px;
+}
+.wind img{
+    width: 60px;
+}
+.wind{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 20px;
+}
+#th{
+    font-size: 20px;
+}
+#tw{
+    font-size: 20px;
+}
+.weatherstatus{
+    display: none;
+}
+.shape{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(61, 154, 235, 0.553);
+    position: absolute;
+}
+.shape:hover{
+    transform: translateX(10px);
+    transition: 1s;
+}
+.shape1{
+    left: 820px;
+    top: 170px;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 30%;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+}
+.shape2{
+    width: 100px;
+    height: 100px;
+    left: 540px;
+    top: 480px;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 30%;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+}

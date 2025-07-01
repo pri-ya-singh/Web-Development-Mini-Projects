@@ -1,5 +1,5 @@
 let apiUrl="https://api.openweathermap.org/data/2.5/weather?&units=metric&q="
-let apiKey="7db4a9cd03b06ad398b70e5cfcad0c1b"
+let apiKey=YOUR_API_KEY
 let temp=document.getElementById("temp")
 let city=document.getElementById("city")
 let humidity=document.getElementById("dh")

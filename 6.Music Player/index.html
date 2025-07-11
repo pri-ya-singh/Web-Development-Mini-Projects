@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="playlist.svg" alt="playlist" id="playlist-img">
+        <h2>FEEL THE MUSIC</h2>
+        <img src="music.svg" alt="music" id="music-img">
+    </header>
+    <main>
+        <div class="left">
+            <div class="song-image">
+                <img src="musicanim.webp" alt="anim" id="musicanim">
+            </div>
+            <div class="volume">
+                <div class="volume-img">
+                    <img src="volume.svg" alt="volume" id="vol-svg">
+                </div>
+                <input type="range" id="volume-range" onchange="volume()">
+            </div>
+        </div>
+        <div class="right">
+            <div class="details">
+                <h3 id="song-name">Rama Rama Ratate Ratate</h3>
+                <h5 id="song-singer">Samarpit The Band</h5>
+            </div> 
+            <input type="range" id="song-duration" onchange="Duration()">
+            <div class="controls">
+                <div class="prev-img">
+                    <img src="prev.svg" alt="prev" id="prev-img" onclick="previousSong()">
+                </div>
+                <div class="play-pause">
+                    <img src="play.svg" alt="play" id="play-pause" onclick="playPause()">
+                </div>
+                <div class="next">
+                    <img src="next.svg" alt="next" id="next-img" onclick="nextSong()">
+                </div>
+
+            </div> 
+        </div>
+        <div class="playlist">
+            <div class="playlist-song">
+                <img src="image-3.jpeg" alt="img">
+                <div class="song-details">
+                    <h2>Rama Rama Ratate Ratate</h2>
+                    <h5>Samarpit The Band</h5>
+                </div>
+            </div>
+            <div class="playlist-song">
+                <img src="image-5.jpg" alt="img">
+                <div class="song-details">
+                    <h2>Phir Bhi Tumko Chaahunga</h2>
+                    <h5>Arijit Singh</h5>
+                </div>
+            </div>
+            <div class="playlist-song">
+                <img src="image-2.jpg" alt="img">
+                <div class="song-details">
+                    <h2>Lag Ja Gale</h2>
+                    <h5>Lata Mangeshkar</h5>
+                </div>
+            </div>
+            <div class="playlist-song">
+                <img src="image-4.jpg" alt="img">
+                <div class="song-details">
+                    <h2>Sooraj Dooba Hain</h2>
+                    <h5>Arijit Singh</h5>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
